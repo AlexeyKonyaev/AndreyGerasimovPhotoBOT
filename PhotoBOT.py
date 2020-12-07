@@ -53,7 +53,7 @@ def reg_name(message):
     global name
     name = message.text
     bot.send_message(message.from_user.id, 'Заяка успешно отправлена!')
-    bot.send_message(chat_id = -490711905, text = "У вас новая завка - " + " " + "Место: " + place + "; Время: " + time + "; Контакт: " + name + " " + contact)
+    bot.send_message(chat_id = -1001340620848, text = "У вас новая завка - " + " " + "Место: " + place + "; Время: " + time + "; Контакт: " + name + " " + contact)
 
 
 
